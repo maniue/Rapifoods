@@ -14,6 +14,7 @@
    <div class="ctn-form"> 
     <img src="imagenes/rap.png" alt=""class="logo">
     <h1 class="title">Iniciar Sesion</h1>
+    <h2>Esta es la prubea</h2>
      
 
     <form action="">
