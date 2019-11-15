@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../imagenes/lol7.jpg)  ;
+    background-size: cover;
+    background-attachment: fixed;
+   
+     
+
+}
+.container-all{
+
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+
+.ctn-form{
+    width: 80%;
+    padding: 40px;
+    background: linear-gradient(90deg,white, black);
+
+}
+
+.logo{
+
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.title {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 300;
+    color: lightslategrey;
+    
+}
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: lightslategrey;
+}
+
+
+input[ type="text"],
+input[ type="password"]{
+
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    color: mediumseagreen;
+    font-size: 16px;
+
+}
+input[ type="submit"]{
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+    color: white;
+    border: 0px;
+    background:linear-gradient(90deg,white, rgb(0, 255, 234) ) ;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[ type="submit"]:hover{
+    background:linear-gradient(90deg, rgb(0, 255, 234),white ) ;
+}
+.text-footer{
+
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    color:lightslategrey ;
+    font-weight: 300;
+    }
+    
+.text-footer a{
+        color: #029EE1;
+        font-weight: 500;
+}
+
+
+/*lado derecho*/
+
+.ctn-text{
+    width: 100%;
+    background-image: url(../imagenes/op.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    position: relative;
+   
+}
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:linear-gradient(90deg rgb(0, 255, 234), white) ;
+    opacity: 0.8;
+
+}
